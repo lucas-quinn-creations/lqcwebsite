@@ -23,7 +23,7 @@
         </nav>
     </header>
     
-<div class="contact-container">
+<div class="contact-container3">
     <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
         <div class="contact-left-title">
             <h2>Get in touch</h2>
@@ -33,7 +33,20 @@
         <input type="hidden" name="access_key" value="914cfe04-87d1-4117-8362-75b26f258bf8">
         <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
         <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-        <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+        <h3>Prefer to be contacted via Discord? Input that information below.</h3>
+        <input type="text" name="Discord-account" placeholder="Discord Name" class="contact-inputs">
+        <h2>Describe your project and what it will be used for!</h2>
+        <textarea name="ProjectDetails" placeholder="Project Details" class="contact-inputs" required></textarea>
+        <h2>Describe any moods or instruments you would like featured in the song.</h2>
+        <textarea name="MoodandInstruments" placeholder="Submit Mood Information" class="contact-inputs" required></textarea>
+        <h2>Please submit any reference material you would like to be considered.</h2>
+        <textarea name="References" placeholder="Submit Reference Material" class="contact-inputs" required></textarea>
+        <label for="exclusivity">Would you like Non-Exclusive or Exclusive:</label>
+        <select id="exclusivity" name="exclusivity">
+        <option value="non-exclusive">Non-Exclusive</option>
+        <option value="exclusive">Exclusive</option>
+        <option value="NotSure">Not Sure</option>
+        </select>
         <button type="submit">Submit</button>
         </form>
         <div class="contact-right">
