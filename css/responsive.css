@@ -343,6 +343,7 @@
 
     .innerbox > iframe {
         width: 350px;
+        max-width: 99%;
     }
     
     .commission {
